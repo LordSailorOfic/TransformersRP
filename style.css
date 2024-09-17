@@ -1,0 +1,43 @@
+
+body {
+    background-color: #535353;
+    background-image: url('https://ih0.redbubble.net/image.665575159.4179/flat,1000x1000,075,f.u5.jpg');
+    backdrop-filter: opacity(50%);
+    background-size: cover;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-style: italic;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #a10606;
+    color: white;
+    font-style: italic;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #a10606;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Transformers RP</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="" style="scale: 80%;">
+            <p>Optimus Prime te convida para ir a Cybertron, aceitas o convite?</p>
+            <button class="btn-proximo" data-proximo="1">Sim, quero rodar!</button>
+            <button class="btn-proximo" data-proximo="2">Não.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra em uma nave para ir a Cybetron. Optimus quer saber o que você vai visitar em Cybertron.</p>
+            <button class="btn-proximo" data-proximo="3">Quero visitar Iacon!</button>
+            <button class="btn-proximo" data-proximo="4">Quero visitar Kaon!</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Optimus fica bravo e te joga na base Decepticon. Lá você encontra Megatron! Ele te oferece ajuda, aceitas?</p>
+            <button class="btn-proximo" data-proximo="5">Claro, vou me vingar de Optimus!</button>
+            <button class="btn-proximo" data-proximo="6">Não.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <!-- Visitar Iacon -->
+            <p>Chegando em Cybertron, Sua nave é atacada por Decepticons! O que devemos fazer?</p>
+            <button class="btn-proximo" data-proximo="7">Vamos matar todos eles!</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <!-- Visitar Kaon --> 
+            <p>Você entra em território Decepticon em uma nave Autobot, e, graças à essa burrice, sua nave é destruida e você e Optimus morrem.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <!-- Se vingar de Optimus -->
+            <p>Megatron te coloca na Nemesis e segue para Cybertron para encontrar Optimus.</p>
+            <button class="btn-proximo" data-proximo="7">Que tolice heróica!</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <!-- Não confiar em Megatron -->
+            <p>Megatron furioso te aprisiona e o leva como refém.</p>
+            <button class="btn-proximo" data-proximo="8">Ligar para o Optimus pedindo socorro.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <!-- Matar todos eles -->
+            <!-- Vingar do Optimus -->
+            <!-- Não confiar -->
+            <p>Graças a isso, Optimus cai em uma armadilha dos Decepticons e você é o único que o pode ajudar, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="9">Ajudo Optimus, mesmo sendo pequeno e frágil!</button>
+            <button class="btn-proximo" data-proximo="10">Vou dar no pé!</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <!-- Não confiar --> 
+            <p>Soundwave intercepta sua chamada! Agora ele está indo para Cybertron no esconderijo Autobot!</p>
+            <button class="btn-proximo" data-proximo="7">Nãoooo!</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você, de maneira heróica, decide abrir os portões de Iacon para companheiros Autobots ajudaem Optimus!</p>
+            <button class="btn-proximo" data-proximo="11">Vamos lá acabar com os Decepti-esquisitos pessoal!</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Tá de sacanagem?! Você está em outro planeta animal! Não tem pra onde correr!</p>
+            <button class="btn-proximo" data-proximo="12">Repensar as escolhas.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <!-- Rio da esquerda -->
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você salvou Optimus e os Decepticons recuam, mais uma vitória em prol da Liberdade!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ao repensar suas escolhas, você percebe que Optimus é a única forma que você tem de retornar à Terra.</p>
+            <button class="btn-proximo" data-proximo="11">Vou deixar de ser brocha e arriscarei tudo!</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
